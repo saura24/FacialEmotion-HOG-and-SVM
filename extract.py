@@ -1,3 +1,10 @@
+'''
+Author : Saurav Panda
+This File extracts the HoG features from the images and saves them in corresponding feature folder.
+'''
+
+
+
 # Import the functions to calculate feature descriptors
 from skimage.feature import local_binary_pattern
 from skimage.feature import hog
@@ -95,7 +102,7 @@ if __name__ == "__main__":
         fd_path = "feat_6"+"/"+fd_name
         joblib.dump(fd, fd_path)
     print "."
-    print "Neutral features saved in {}"
+    print "HoG features saved in {}"
 
 
 
