@@ -1,3 +1,7 @@
+'''
+Author : Saurav Panda
+This file test the trained SVM model for live images.
+Press "q" to get out of the window'''
 import cv2
 import numpy as np
 # Import the functions to calculate feature descriptors
