@@ -14,7 +14,10 @@ To Run this program follow the given steps:
 3. In each folder copy the extract.py , test-classifier.py.Copy train-classifier.py and "model" folder in training folder.
 4. Run extract.py in each folder.This will save all the features in feature folders("feat_0",etc)
 5. In training folder run train-classifier.py.This will save the svm models in model folder.Copy this model folder to test folders. 
-6. No run the test-classifier.py in the test folder.
+6. Now run the test-classifier.py in the test folder.
+
+To run live facial detector:
+Run emotion_live.py
 
 This dataset is taken from 
 "Challenges in Representation Learning: A report on three machine learning
